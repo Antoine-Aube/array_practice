@@ -20,3 +20,16 @@ p significant_years.shift(2)
 p slc_spring_temperatures.shift(4)
 p array_of_booleans.shift
 
+#index positions exist to access something within a certain part of an array
+# The first index position will always we 0, while the last will be -1
+#Here are some examples of accessing index positions within the arrays above
+
+p slc_spring_temperatures[1]
+p famous_cities[-1]
+
+#In this example you are using index 1 as a starting point, and
+#pulling the second element (really that the third because 2 represent 0,1,2)
+#from that point
+p significant_years[1, 2]
+
+
