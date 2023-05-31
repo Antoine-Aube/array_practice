@@ -32,4 +32,13 @@ p famous_cities[-1]
 #from that point
 p significant_years[1, 2]
 
+# The .fetch method sets an error for indices outside of the array bounds. 
+# This method could be useful in application for someone searching with a list
+# That has a limited amount of elements in order. In this case, my 
+#slc_spring_temperatures array could be limited to a month, which may have
+#less than 28 days if someone were searching for a a specific day of the month
+#for that specific temperature recording
+p slc_spring_temperatures.fetch(28, "February has less than 29 days")
+
+
 
