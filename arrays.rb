@@ -20,6 +20,13 @@ p significant_years.shift(2)
 p slc_spring_temperatures.shift(4)
 p array_of_booleans.shift
 
+#Section revised from Kaitlyn's feedback!
+
+p famous_cities.push("Salt Lake City")
+p significant_years.unshift(1964)
+p slc_spring_temperatures.pop
+
+
 #index positions exist to access something within a certain part of an array
 # The first index position will always we 0, while the last will be -1
 #Here are some examples of accessing index positions within the arrays above
